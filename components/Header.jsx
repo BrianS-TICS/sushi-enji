@@ -35,7 +35,7 @@ const Header = () => {
             </Typography>
           </Grid>
           <Grid item md={"3"}>
-            <Box display={"flex"} justifyContent={"center"}>
+            <Box height={"5rem"} display={"flex"} justifyContent={"center"}>
               <img src="img/logo.png" alt="" />
             </Box>
           </Grid>
@@ -45,6 +45,8 @@ const Header = () => {
               justifyContent={"center"}
               alignItems={"center"}
               gap={2}
+
+              height={"2rem"}
             >
               <img src="img/icons/whatsapp.png" alt="" />
               <img src="img/icons/instagram.png" alt="" />
